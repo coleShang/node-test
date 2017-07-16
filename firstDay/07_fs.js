@@ -6,9 +6,9 @@ const server = http.createServer((req,res)=>{
     }
     res.writeHead(200,{'Content-Type':'text/html,charset=utf-8'})
     fs.readFile("./firstDay/asstes/fs.txt",{"charset":"utf-8"},(err,data)=>{
-        // if(err){
-        //     throw err;
-        // }
+        if(err){
+            throw err;
+        }
         console.log(err)
         res.end(data)
     })
