@@ -1,1 +1,1 @@
-require("./firstDay/08_fs");
+require("./firstDay/09_static");

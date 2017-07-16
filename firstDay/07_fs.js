@@ -8,7 +8,7 @@ const server = http.createServer((req,res)=>{
     fs.readFile("./firstDay/asstes/fs.txt",{"charset":"utf-8"},(err,data)=>{
         if(err){
             throw err;
-        }
+        };
         console.log(err)
         res.end(data)
     })

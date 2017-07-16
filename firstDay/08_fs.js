@@ -9,7 +9,7 @@ var server = http.createServer((req,res)=>{
     // fs.mkdir('./test/test',()=>{
     //     console.log('呵呵')
     // });
-    fs.stat("./asstes",(err,stats)=>{
+    fs.stat("./firstDay/asstes",(err,stats)=>{
         console.log(stats);
     })
     res.end();
